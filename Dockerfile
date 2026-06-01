@@ -9,7 +9,7 @@ RUN --mount=type=cache,target=/root/.npm \
   apt-get update && \
   apt-get install -y --no-install-recommends python3 make g++ && \
   rm -rf /var/lib/apt/lists/* && \
-  npm ci wget
+  npm ci
 
 FROM base AS builder
 WORKDIR /app
@@ -30,7 +30,7 @@ ENV NEXT_TELEMETRY_DISABLED=1
 ENV NODE_ENV=production
 
 RUN apt-get update && \
-  apt-get install -y --no-install-recommends curl ca-certificates gosu && \
+  apt-get install -y --no-install-recommends curl ca-certificates wget gosu && \
   rm -rf /var/lib/apt/lists/* && \
   groupadd --system --gid 1001 nodejs && \
   useradd --system --uid 1001 --gid 1001 nextjs
