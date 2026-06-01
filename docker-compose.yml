@@ -22,10 +22,18 @@ services:
     image: ghcr.io/${GITHUB_REPOSITORY:-awesome-qr-code-docker}:latest
     container_name: awesome-qr
     restart: unless-stopped
+    networks:
+      - proxy
     ports:
-      - "${PORT:-3000}:${PORT:-3000}"
+      - "${PORT:-3000}"
     env_file:
       - stack.env
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=proxy"
+      - "traefik.http.routers.qr.rule=Host(`qr.aicher.int`,`qr.npm.hosting-in-halfing.de`)"
+      - "traefik.http.routers.qr.entrypoints=web"
+      - "traefik.http.services.qr.loadbalancer.server.port=3000"
     environment:
       - NODE_ENV=production
     volumes:
@@ -37,5 +45,10 @@ services:
       retries: 3
       start_period: 10s
 
+
+networks:
+  proxy:
+    external: true
+    
 volumes:
   app-data:
