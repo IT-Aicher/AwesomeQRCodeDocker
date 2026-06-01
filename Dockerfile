@@ -9,7 +9,7 @@ RUN --mount=type=cache,target=/root/.npm \
   apt-get update && \
   apt-get install -y --no-install-recommends python3 make g++ && \
   rm -rf /var/lib/apt/lists/* && \
-  npm ci
+  npm ci wget
 
 FROM base AS builder
 WORKDIR /app
