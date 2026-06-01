@@ -23,17 +23,11 @@ services:
     container_name: awesome-qr
     restart: unless-stopped
     networks:
-      - proxy
+      - npm
     ports:
       - "${PORT:-3000}"
     env_file:
       - stack.env
-    labels:
-      - "traefik.enable=true"
-      - "traefik.docker.network=proxy"
-      - "traefik.http.routers.qr.rule=Host(`qr.aicher.int`,`qr.npm.hosting-in-halfing.de`)"
-      - "traefik.http.routers.qr.entrypoints=web"
-      - "traefik.http.services.qr.loadbalancer.server.port=3000"
     environment:
       - NODE_ENV=production
     volumes:
@@ -47,7 +41,7 @@ services:
 
 
 networks:
-  proxy:
+  npm:
     external: true
     
 volumes:
