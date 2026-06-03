@@ -1,9 +1,3 @@
-/* .\src\i18n\request.ts
- * .\src\i18n\routing.ts
- * .\src\components\language-switcher.tsx
- */
-
-
 {
   "common": {
     "loading": "Laden…",
