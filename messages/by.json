@@ -1,66 +1,72 @@
+/* .\src\i18n\request.ts
+ * .\src\i18n\routing.ts
+ * .\src\components\language-switcher.tsx
+ */
+
+
 {
   "common": {
-    "loading": "Laden…",
-    "error": "Ein Fehler ist aufgetreten",
-    "copy": "Kopieren",
-    "copied": "Kopiert!",
-    "download": "Herunterladen",
-    "generate": "Generieren",
-    "reset": "Zurücksetzen",
-    "save": "Speichern",
-    "cancel": "Abbrechen",
-    "close": "Schließen",
-    "back": "Zurück",
-    "yes": "Ja",
-    "no": "Nein",
-    "learnMore": "Mehr erfahren"
+    "loading": "Ladn...",
+    "error": "Da is wos schiefganga",
+    "copy": "Kopiern",
+    "copied": "Gkopiert!",
+    "download": "Runterladn",
+    "generate": "Erstelln",
+    "reset": "Zruckhaun",
+    "save": "Speichan",
+    "cancel": "Abbruchn",
+    "close": "Zumachn",
+    "back": "Zruck",
+    "yes": "Jo",
+    "no": "Naa",
+    "learnMore": "Mehr erfahrn"
   },
   "nav": {
-    "home": "Startseite",
+    "home": "Startseitn",
     "generate": "Generator",
-    "stats": "Statistiken",
-    "privacy": "Datenschutz",
+    "stats": "Statistikn",
+    "privacy": "Datenschutz-Gschicht",
     "imprint": "Impressum",
-    "apiDocs": "API-Dokumentation"
+    "apiDocs": "API-Zeigs"
   },
   "landing": {
     "hero": {
-      "title": "QR-Codes sofort erstellen",
-      "subtitle": "Kostenlos, schnell & vollständig anpassbar. QR-Codes für Links, Texte, WLAN, Kontakte und mehr.",
-      "cta": "Jetzt loslegen"
+      "title": "QR-Codes sofort zammbastln",
+      "subtitle": "Gratis, sauschnell & komplett frei zum bastln. QR für Links, Text, WLAN, Kontaktn und alles wos halt so brauchst.",
+      "cta": "Jetzt leg ma los"
     },
     "features": {
-      "title": "Funktionen",
+      "title": "Wos des Ding ko",
       "types": {
-        "title": "Viele QR-Typen",
-        "description": "URLs, Text, WLAN, Telefon, E-Mail, SMS, Standorte, Termine und Kontakte."
+        "title": "Sau viel QR-Zeug",
+        "description": "URLs, Text, WLAN, Telefon, E-Mail, SMS, Standort, Termine, Kontaktn – ois drin."
       },
       "customization": {
-        "title": "Volle Anpassbarkeit",
-        "description": "Farben, Verläufe, Formen, Logos und Stile passend zu deiner Marke."
+        "title": "Mach da dei Design",
+        "description": "Farbn, Verläuf, Formen, Logos – so wia’d’s da gfällt."
       },
       "analytics": {
-        "title": "Optionale Statistiken",
-        "description": "Tracke Scans mit Kurzlinks. Geo-Daten, Browser und Klickzahlen einsehen."
+        "title": "Statistikn wennst magst",
+        "description": "Scan-Zeug mit Kurzlinks. Schau wos passiert is: Länder, Browser, Klicks."
       },
       "privacy": {
-        "title": "Datenschutz zuerst",
-        "description": "Self-hosted mit konfigurierbarem Tracking. Deine Daten bleiben auf deinem Server."
+        "title": "Datenschutz is koa Spaß",
+        "description": "Self-hosted, nix wird einfach so verschickt. Alles bleibt bei dir am Server."
       },
       "noAccount": {
-        "title": "Kein Konto nötig",
-        "description": "QR-Codes sofort generieren – ohne Registrierung."
+        "title": "Kein Gschiss mit Account",
+        "description": "Einfach QR bastln und fertig."
       },
       "openSource": {
-        "title": "Open Source",
-        "description": "Docker-basiert, vollständig per Umgebungsvariablen konfigurierbar."
+        "title": "Open Source Zeig",
+        "description": "Läuft per Docker, alles über Variabln konfigurierbar."
       }
     }
   },
   "generator": {
-    "title": "QR-Code Generator",
+    "title": "QR-Code Bastler",
     "type": {
-      "label": "QR-Typ",
+      "label": "QR-Art",
       "url": "URL",
       "text": "Text",
       "wifi": "WLAN",
@@ -77,42 +83,42 @@
         "urlPlaceholder": "https://beispiel.de"
       },
       "text": {
-        "content": "Textinhalt",
-        "contentPlaceholder": "Gib deinen Text ein…"
+        "content": "Text",
+        "contentPlaceholder": "Hau da dei Text nei..."
       },
       "wifi": {
-        "ssid": "Netzwerkname (SSID)",
+        "ssid": "Netzwerk-Name (SSID)",
         "password": "Passwort",
         "encryption": "Verschlüsselung",
-        "hidden": "Verstecktes Netzwerk",
+        "hidden": "Versteckts Netz",
         "wpa": "WPA/WPA2",
         "wep": "WEP",
-        "none": "Keine"
+        "none": "Nix"
       },
       "phone": {
         "number": "Telefonnummer",
         "numberPlaceholder": "+49 123 4567890"
       },
       "email": {
-        "to": "E-Mail-Adresse",
+        "to": "E-Mail",
         "toPlaceholder": "name@beispiel.de",
         "subject": "Betreff",
         "body": "Nachricht"
       },
       "sms": {
-        "number": "Telefonnummer",
+        "number": "Nummer",
         "numberPlaceholder": "+49 123 4567890",
         "message": "Nachricht"
       },
       "geo": {
         "latitude": "Breitengrad",
         "longitude": "Längengrad",
-        "query": "Suchanfrage (optional)"
+        "query": "Suche (optional)"
       },
       "event": {
         "title": "Titel",
         "location": "Ort",
-        "startDate": "Beginn",
+        "startDate": "Anfang",
         "endDate": "Ende",
         "description": "Beschreibung"
       },
@@ -121,207 +127,207 @@
         "lastName": "Nachname",
         "phone": "Telefon",
         "email": "E-Mail",
-        "organization": "Organisation",
+        "organization": "Firma",
         "url": "Website",
         "address": "Adresse"
       }
     },
     "style": {
-      "title": "Stiloptionen",
-      "colors": "Farben",
-      "foreground": "Vordergrund",
-      "background": "Hintergrund",
-      "gradientEnabled": "Verlauf aktivieren",
-      "gradientType": "Verlaufstyp",
-      "gradientColorEnd": "Verlauf-Endfarbe",
+      "title": "Style-Zeig",
+      "colors": "Farbn",
+      "foreground": "Vorn",
+      "background": "Hinten",
+      "gradientEnabled": "Verlauf anmachn",
+      "gradientType": "Verlaufs-Art",
+      "gradientColorEnd": "Endfarb vom Verlauf",
       "linear": "Linear",
       "radial": "Radial",
-      "dotStyle": "Punkt-Stil",
-      "cornerSquareStyle": "Eck-Quadrat-Stil",
-      "cornerDotStyle": "Eck-Punkt-Stil",
+      "dotStyle": "Punkt-Style",
+      "cornerSquareStyle": "Eck-Kastl",
+      "cornerDotStyle": "Eck-Punkt",
       "styles": {
         "square": "Eckig",
-        "rounded": "Abgerundet",
-        "dots": "Punkte",
-        "classy": "Klassisch",
-        "classyRounded": "Klassisch Rund",
-        "extraRounded": "Extra Rund",
+        "rounded": "Rund gschliffn",
+        "dots": "Punkterl",
+        "classy": "Schick",
+        "classyRounded": "Schick rund",
+        "extraRounded": "No runder",
         "dot": "Punkt"
       },
-      "logo": "Logo-Overlay",
-      "logoUpload": "Bild hochladen",
-      "logoRemove": "Entfernen",
-      "logoHint": "Transparentes PNG empfohlen. Max. {ratio}% der QR-Fläche.",
-      "errorCorrection": "Fehlerkorrektur",
+      "logo": "Logo drüber",
+      "logoUpload": "Bild nei ladn",
+      "logoRemove": "Weg damit",
+      "logoHint": "Am besten PNG ohne Hintergrund. Max. {ratio}% vom QR.",
+      "errorCorrection": "Fehler-Ausgleich",
       "ecLevels": {
-        "L": "Niedrig (7%)",
+        "L": "Wenig (7%)",
         "M": "Mittel (15%)",
-        "Q": "Quartil (25%)",
-        "H": "Hoch (30%)"
+        "Q": "Schon stabil (25%)",
+        "H": "Extrem stabil (30%)"
       },
       "size": "Größe (px)",
-      "sizeHint": "Beeinflusst nur die Download-Auflösung. Die Vorschau nutzt eine feste Größe.",
-      "margin": "Ruhezone",
-      "embedTargetLabel": "Ziellink in das QR-Bild einbetten"
+      "sizeHint": "Nur für Download relevant, Vorschau bleibt gleich.",
+      "margin": "Rand",
+      "embedTargetLabel": "Ziel direkt einbackn"
     },
     "tracking": {
       "title": "Tracking & Kurzlink",
-      "enable": "Scan-Tracking aktivieren",
-      "enableHint": "Erstellt einen getrackten Kurzlink mit Scan-Statistiken.",
+      "enable": "Scan-Tracking anmachn",
+      "enableHint": "Macht an Kurzlink mit Statistikn draus.",
       "shortLink": "Kurzlink",
-      "statsLink": "Statistiken ansehen",
-      "statsHint": "Teile diesen Link, um Scan-Statistiken einzusehen.",
-      "activate": "Tracking-Link aktivieren",
-      "activating": "Aktiviere...",
-      "active": "Tracking-Link aktiv",
-      "activationWarning": "Dieser QR-Code zeigt bereits auf den Tracking-Link, funktioniert aber erst nach der Aktivierung.",
-      "fillFieldsFirst": "Trage zuerst das endgültige Ziel ein. Ein Tracking-Entwurf wird automatisch vorbereitet.",
-      "enabledProsTitle": "Tracking aktiviert",
-      "featureShortLink": "Verwendet einen Kurzlink statt das vollständige Ziel direkt einzubetten.",
-      "featureClicks": "Zählt Scans/Klicks für diesen QR-Code.",
-      "featureTimestamps": "Speichert Zeitpunkte für zeitbasierte Statistiken.",
-      "featureBrowser": "Erfasst Browserdaten für Geräte-Einblicke.",
-      "featureOs": "Erfasst Betriebssystemdaten.",
-      "featureGeo": "Kann ungefähre geografische Informationen erfassen.",
-      "featureReferrer": "Kann die Referrer-Quelle speichern.",
-      "featureUniqueVisitors": "Kann eindeutige Besucher per gehashter IP abschätzen.",
-      "featureExtendedPrivacy": "Kann Consent- und Auswahlseiten vor der Weiterleitung anzeigen.",
-      "disabledProsTitle": "Tracking deaktiviert",
-      "noTrackingDirect": "Das endgültige Ziel ist direkt im QR-Code eingebettet.",
-      "noTrackingPermanent": "Funktioniert dauerhaft auch ohne Kurzlink-Datenbankabfrage.",
-      "noTrackingPrivacy": "Datenschutzfreundlicher, weil keine Scan-Statistiken gesammelt werden.",
-      "disabled": "Tracking ist vom Administrator deaktiviert.",
-      "unavailable": "Tracking erfordert die aktivierte Analytics-Funktion."
+      "statsLink": "Statistikn anschaun",
+      "statsHint": "Diesen Link weitergebn für Auswertung.",
+      "activate": "Tracking aktiviern",
+      "activating": "Aktivier i grad...",
+      "active": "Tracking läuft",
+      "activationWarning": "QR zeigt scho drauf, geht aber erst nach Aktivierung richtig.",
+      "fillFieldsFirst": "Erst Ziel eingeben, dann wird Tracking vorbereitet.",
+      "enabledProsTitle": "Tracking läuft",
+      "featureShortLink": "Kurzlink statt direktem Ziel.",
+      "featureClicks": "Zählt jeden Klick.",
+      "featureTimestamps": "Merkt sich Zeiten.",
+      "featureBrowser": "Browser wird gsehn.",
+      "featureOs": "Betriebssystem erkannt.",
+      "featureGeo": "Grobe Standortinfos möglich.",
+      "featureReferrer": "Herkunft wird gmerkt.",
+      "featureUniqueVisitors": "Schätzt einzigartige Besucher.",
+      "featureExtendedPrivacy": "Evtl. Consent davor.",
+      "disabledProsTitle": "Tracking aus",
+      "noTrackingDirect": "Geht direkt zum Ziel.",
+      "noTrackingPermanent": "Läuft immer ohne Datenbank.",
+      "noTrackingPrivacy": "Mehr Privatsphäre.",
+      "disabled": "Tracking vom Admin ausgmacht.",
+      "unavailable": "Braucht Analytics aktiv."
     },
     "preview": {
       "title": "Vorschau",
-      "showEmbeddedTarget": "Ziel unter dem QR-Code anzeigen",
-      "empty": "Konfiguriere deinen QR-Code, um die Vorschau zu sehen.",
-      "scanWarning": "Dieser QR-Code könnte schwer zu scannen sein. Versuche, die Logo-Größe zu reduzieren oder den Stil zu vereinfachen."
+      "showEmbeddedTarget": "Ziel anzeigen",
+      "empty": "Erst was bastln, dann siehst wos.",
+      "scanWarning": "Könnt schwer scannbar sei – mach Logo kleiner oder Style simpler."
     },
     "export": {
       "title": "Export",
-      "png": "PNG herunterladen",
-      "svg": "SVG herunterladen",
-      "svgLogoHint": "SVG-Download ist nur verfügbar, wenn das Logo im SVG-Format vorliegt."
+      "png": "PNG runterladn",
+      "svg": "SVG runterladn",
+      "svgLogoHint": "SVG geht nur mit SVG-Logo."
     }
   },
   "stats": {
-    "title": "Scan-Statistiken",
-    "totalScans": "Scans gesamt",
-    "uniqueVisitors": "Eindeutige Besucher",
+    "title": "Scan-Statistikn",
+    "totalScans": "Gsamte Scans",
+    "uniqueVisitors": "Einzigartige Leut",
     "topCountries": "Top-Länder",
     "topBrowsers": "Top-Browser",
     "topOS": "Top-Betriebssysteme",
-    "topReferrers": "Top-Referrer",
-    "timeline": "Scans im Zeitverlauf",
-    "noData": "Noch keine Scan-Daten vorhanden.",
+    "topReferrers": "Wo’s herkemma san",
+    "timeline": "Verlauf von den Scans",
+    "noData": "No ned amoi Daten do.",
     "shortLink": "Kurzlink",
-    "createdAt": "Erstellt am",
-    "qrType": "QR-Typ",
+    "createdAt": "Gmocht am",
+    "qrType": "QR-Art",
     "target": "Ziel",
-    "notFound": "Statistiken nicht gefunden. Der Link ist ungültig oder abgelaufen.",
+    "notFound": "Nix gfunden – Link is entweder kaputt oder abglaufen.",
     "period": {
       "label": "Zeitraum",
-      "7d": "Letzte 7 Tage",
-      "30d": "Letzte 30 Tage",
-      "90d": "Letzte 90 Tage",
-      "all": "Gesamter Zeitraum"
+      "7d": "Letzte 7 Tog",
+      "30d": "Letzte 30 Tog",
+      "90d": "Letzte 90 Tog",
+      "all": "Ois zamm"
     }
   },
   "privacy": {
-    "title": "Datenschutzerklärung",
-    "lastUpdated": "Zuletzt aktualisiert: {date}",
+    "title": "Datenschutz-Gschicht",
+    "lastUpdated": "Zuletzt aufn neuesten Stand bracht: {date}",
     "sections": {
       "intro": {
         "title": "Einleitung",
-        "content": "Diese Datenschutzerklärung erläutert, wie {siteName} Ihre Daten bei der Nutzung unseres QR-Code-Generators erhebt, nutzt und schützt."
+        "content": "Des da erklärt da, wia {siteName} mit deine Daten umgeht, wennst den QR-Zeug benutzt."
       },
       "operator": {
-        "title": "Verantwortliche Stelle",
-        "content": "Der Verantwortliche für diesen Dienst ist: {companyInfo}. Für Datenschutzanfragen wenden Sie sich an: {contactEmail}."
+        "title": "Wer da Chef is",
+        "content": "Verantwortlich für des Gschäftl: {companyInfo}. Wennst wos willst: {contactEmail}."
       },
       "collection": {
-        "title": "Erhobene Daten",
-        "content": "Standardmäßig erhebt dieser Dienst keine personenbezogenen Daten. QR-Codes werden direkt in Ihrem Browser generiert. Ein Konto ist nicht erforderlich."
+        "title": "Was gsammlt wird",
+        "content": "Normalerweise wird überhaupt nix Persönliches gspeichert. QR läuft direkt in deinem Browser."
       },
       "tracking": {
-        "title": "Scan-Tracking",
-        "content": "Wenn Scan-Tracking für einen QR-Code aktiviert ist, werden beim Aufruf des Kurzlinks folgende Daten erfasst:",
+        "title": "Scan-Tracking (wennst’s einschaltest)",
+        "content": "Wenn aktiv, werdn die Sachen da gmerkt:",
         "items": {
-          "clicks": "Anzahl der Scans / Klicks",
-          "timestamps": "Datum und Uhrzeit jedes Scans",
-          "browser": "Browsertyp (z. B. Chrome, Firefox)",
-          "os": "Betriebssystem (z. B. Windows, iOS)",
-          "geo": "Ungefährer Standort (nur Land / Region)",
-          "referrer": "Verweisende Website",
-          "unique": "Anonymisierte Zählung eindeutiger Besucher (gehasht, nicht umkehrbar)"
+          "clicks": "Wia oft gscant",
+          "timestamps": "Wann’s passiert is",
+          "browser": "Welcher Browser",
+          "os": "Wos für a System",
+          "geo": "Grobe Gegend",
+          "referrer": "Woher der Klick kimmt",
+          "unique": "Ungefähre einzigartige Besucher"
         },
-        "ipNote": "IP-Adressen werden niemals im Klartext gespeichert. Für die Zählung eindeutiger Besucher wird ein Einweg-Hash mit rotierendem Salt verwendet."
+        "ipNote": "IP-Adressen werdn ned im Klartext gspeichert, des is gscheid anonymisiert."
       },
       "selfHosted": {
-        "title": "Self-Hosted Analyse",
-        "content": "Diese Instanz nutzt selbst gehostete Analyse. Alle Tracking-Daten werden auf diesem Server gespeichert und nicht an Dritte weitergegeben."
+        "title": "Läuft auf deinem eigenen Server",
+        "content": "Alles bleibt bei dir, nix geht irgendwohin in da Weltgeschichte."
       },
       "google": {
         "title": "Google Analytics",
-        "content": "Diese Website nutzt Google Analytics zur Analyse der Websitenutzung. Google Analytics verwendet Cookies zur Erfassung anonymisierter Daten. Details: https://policies.google.com/privacy."
+        "content": "Da wird Google Analytics benutzt: https://policies.google.com/privacy"
       },
       "cloudflare": {
-        "title": "Cloudflare Web Analytics",
-        "content": "Diese Website nutzt Cloudflare Web Analytics, ein datenschutzfreundliches Analyse-Tool ohne Cookies und ohne personenbezogene Datenerfassung. Mehr: https://www.cloudflare.com/web-analytics/."
+        "title": "Cloudflare Analytics",
+        "content": "Datenschutzfreundlich, koa Cookies: https://www.cloudflare.com/web-analytics/"
       },
       "api": {
         "title": "Öffentliche API",
-        "content": "Diese Instanz bietet eine öffentliche API. API-Anfragen können zur Ratenbegrenzung und Missbrauchsprävention protokolliert werden. Protokolle werden {retentionDays} Tage aufbewahrt."
+        "content": "API-Anfragen werdn kurz mitgschriebn für {retentionDays} Tog, damit nix missbraucht wird."
       },
       "cookies": {
         "title": "Cookies",
-        "content": "Dieser Dienst verwendet nur essenzielle Cookies für Theme- und Spracheinstellungen. Tracking-Cookies werden nur bei aktivierter Drittanbieter-Analyse gesetzt."
+        "content": "Nur das nötigste Zeig für Einstellungen und Sprache. Nix unnötigs."
       },
       "rights": {
-        "title": "Ihre Rechte",
-        "content": "Sie haben das Recht auf Auskunft, Berichtigung und Löschung Ihrer personenbezogenen Daten. Da QR-Codes in Ihrem Browser generiert werden und Tracking optional ist, werden nur minimale Daten gespeichert. Anfragen an: {contactEmail}."
+        "title": "Deine Rechte",
+        "content": "Du kannst jederzeit fragen, ändern oder löschen lassen: {contactEmail}"
       },
       "retention": {
-        "title": "Datenspeicherung",
-        "content": "Scan-Tracking-Daten werden {retentionDays} Tage aufbewahrt und danach automatisch gelöscht. QR-Codes ohne Tracking werden nicht auf dem Server gespeichert."
+        "title": "Wia lang’s bleibt",
+        "content": "Tracking-Daten bleibn {retentionDays} Tog und werdn dann automatisch wegghaut."
       },
       "changes": {
-        "title": "Änderungen dieser Erklärung",
-        "content": "Wir können diese Datenschutzerklärung gelegentlich aktualisieren. Änderungen werden auf dieser Seite veröffentlicht."
+        "title": "Wenn sich wos ändert",
+        "content": "Kann immer wieder aktualisiert werdn – steht dann da."
       }
     }
   },
   "imprint": {
     "title": "Impressum",
-    "company": "Unternehmen",
-    "address": "Adresse",
+    "company": "Firma",
+    "address": "Wo sitzt’n des",
     "contact": "Kontakt",
     "email": "E-Mail",
     "phone": "Telefon",
     "register": "Handelsregister",
     "vatId": "USt-IdNr.",
-    "responsible": "Inhaltlich Verantwortlicher",
-    "notConfigured": "Impressumsinformationen sind nicht konfiguriert. Bitte IMPRINT_*-Umgebungsvariablen setzen."
+    "responsible": "Verantwortlicher Mensch",
+    "notConfigured": "Impressum is ned gscheid konfiguriert – fehlt no wos."
   },
   "theme": {
     "light": "Hell",
-    "dark": "Dunkel",
-    "system": "System"
+    "dark": "Dunkl",
+    "system": "So wia’s System mag"
   },
   "language": {
-    "en": "English",
-    "de": "Daitsch",
-    "by": "Boarisch (in Oawad ;) )"
+    "en": "Englisch",
+    "de": "Deutsch",
+    "by": "Boarisch (richtig deftig 😄)"
   },
   "footer": {
-    "madeWith": "Self-hosted mit ♥",
+    "madeWith": "Self-hosted mit a bissl Liebe ♥",
     "source": "Quellcode"
   },
   "cookieConsent": {
-    "message": "Diese Seite verwendet Cookies für Analyse-Zwecke (Google Analytics / Cloudflare Web Analytics). Stimmen Sie der Nutzung zu?",
-    "accept": "Akzeptieren",
-    "decline": "Ablehnen"
+    "message": "Die Seitl nutzt Cookies für Statistik-Zeig (Google / Cloudflare). Passt des so?",
+    "accept": "Passt scho",
+    "decline": "Naa, lass mi in Rua"
   }
 }
