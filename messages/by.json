@@ -4,12 +4,12 @@
     "error": "Da is wos schiefganga",
     "copy": "Kopiern",
     "copied": "Gkopiert!",
-    "download": "Runterladn",
+    "download": "Runterlon",
     "generate": "Erstelln",
     "reset": "Zruckhaun",
     "save": "Speichan",
-    "cancel": "Abbruchn",
-    "close": "Zumachn",
+    "cancel": "Abbrechn",
+    "close": "Zuamachn",
     "back": "Zruck",
     "yes": "Jo",
     "no": "Naa",
@@ -32,7 +32,7 @@
     "features": {
       "title": "Wos des Ding ko",
       "types": {
-        "title": "Sau viel QR-Zeug",
+        "title": "Sau vui QR-Zeug",
         "description": "URLs, Text, WLAN, Telefon, E-Mail, SMS, Standort, Termine, Kontaktn – ois drin."
       },
       "customization": {
@@ -45,7 +45,7 @@
       },
       "privacy": {
         "title": "Datenschutz is koa Spaß",
-        "description": "Self-hosted, nix wird einfach so verschickt. Alles bleibt bei dir am Server."
+        "description": "Self-hosted, nix wird einfach so verschickt. Ois bleibt bei uns auf m Server."
       },
       "noAccount": {
         "title": "Kein Gschiss mit Account",
@@ -78,7 +78,7 @@
       },
       "text": {
         "content": "Text",
-        "contentPlaceholder": "Hau da dei Text nei..."
+        "contentPlaceholder": "Hau do dein Text nei..."
       },
       "wifi": {
         "ssid": "Netzwerk-Name (SSID)",
@@ -127,20 +127,20 @@
       }
     },
     "style": {
-      "title": "Style-Zeig",
+      "title": "Styling-Zeig",
       "colors": "Farbn",
       "foreground": "Vorn",
-      "background": "Hinten",
-      "gradientEnabled": "Verlauf anmachn",
+      "background": "Hintn",
+      "gradientEnabled": "Verlauf eibaun",
       "gradientType": "Verlaufs-Art",
       "gradientColorEnd": "Endfarb vom Verlauf",
       "linear": "Linear",
       "radial": "Radial",
       "dotStyle": "Punkt-Style",
-      "cornerSquareStyle": "Eck-Kastl",
-      "cornerDotStyle": "Eck-Punkt",
+      "cornerSquareStyle": "Eck'n drausn",
+      "cornerDotStyle": "Eck'n drin",
       "styles": {
-        "square": "Eckig",
+        "square": "Eckad",
         "rounded": "Rund gschliffn",
         "dots": "Punkterl",
         "classy": "Schick",
@@ -148,34 +148,34 @@
         "extraRounded": "No runder",
         "dot": "Punkt"
       },
-      "logo": "Logo drüber",
+      "logo": "Logo dazua?",
       "logoUpload": "Bild nei ladn",
       "logoRemove": "Weg damit",
-      "logoHint": "Am besten PNG ohne Hintergrund. Max. {ratio}% vom QR.",
+      "logoHint": "Am gscheidsn a PNG ohne Hintergrund. Max. {ratio}% vom QR.",
       "errorCorrection": "Fehler-Ausgleich",
       "ecLevels": {
         "L": "Wenig (7%)",
         "M": "Mittel (15%)",
         "Q": "Schon stabil (25%)",
-        "H": "Extrem stabil (30%)"
+        "H": "Guad stabil (30%)"
       },
       "size": "Größe (px)",
-      "sizeHint": "Nur für Download relevant, Vorschau bleibt gleich.",
+      "sizeHint": "Nur für'n Download relevant, d'Vorschau bleibt gleich.",
       "margin": "Rand",
-      "embedTargetLabel": "Ziel direkt einbackn"
+      "embedTargetLabel": "Ziel mit ins Buidl"
     },
     "tracking": {
       "title": "Tracking & Kurzlink",
-      "enable": "Scan-Tracking anmachn",
+      "enable": "Scan-Tracking omacha",
       "enableHint": "Macht an Kurzlink mit Statistikn draus.",
       "shortLink": "Kurzlink",
-      "statsLink": "Statistikn anschaun",
+      "statsLink": "Statistikn o'schaun",
       "statsHint": "Diesen Link weitergebn für Auswertung.",
       "activate": "Tracking aktiviern",
       "activating": "Aktivier i grad...",
       "active": "Tracking läuft",
-      "activationWarning": "QR zeigt scho drauf, geht aber erst nach Aktivierung richtig.",
-      "fillFieldsFirst": "Erst Ziel eingeben, dann wird Tracking vorbereitet.",
+      "activationWarning": "QR zoagd scho drauf, geht aber erst nach Aktivierung richtig.",
+      "fillFieldsFirst": "Erst Ziel eigem, dann wird Tracking vorbereitet.",
       "enabledProsTitle": "Tracking läuft",
       "featureShortLink": "Kurzlink statt direktem Ziel.",
       "featureClicks": "Zählt jeden Klick.",
@@ -195,14 +195,14 @@
     },
     "preview": {
       "title": "Vorschau",
-      "showEmbeddedTarget": "Ziel anzeigen",
-      "empty": "Erst was bastln, dann siehst wos.",
+      "showEmbeddedTarget": "Ziel ozoang",
+      "empty": "Erst was bastln, dann sigst wos.",
       "scanWarning": "Könnt schwer scannbar sei – mach Logo kleiner oder Style simpler."
     },
     "export": {
       "title": "Export",
-      "png": "PNG runterladn",
-      "svg": "SVG runterladn",
+      "png": "PNG runterlon",
+      "svg": "SVG runterlon",
       "svgLogoHint": "SVG geht nur mit SVG-Logo."
     }
   },
@@ -230,23 +230,23 @@
     }
   },
   "privacy": {
-    "title": "Datenschutz-Gschicht",
+    "title": "Datenschutz-Gschichtl",
     "lastUpdated": "Zuletzt aufn neuesten Stand bracht: {date}",
     "sections": {
       "intro": {
         "title": "Einleitung",
-        "content": "Des da erklärt da, wia {siteName} mit deine Daten umgeht, wennst den QR-Zeug benutzt."
+        "content": "Des da erklärt da, wia {siteName} mit deine Daten umgeht, wennst des QR-Zeug benutzt."
       },
       "operator": {
         "title": "Wer da Chef is",
-        "content": "Verantwortlich für des Gschäftl: {companyInfo}. Wennst wos willst: {contactEmail}."
+        "content": "Verantwortlich für des Gschäftl: {companyInfo}. Wennst wos wuist: {contactEmail}."
       },
       "collection": {
-        "title": "Was gsammlt wird",
+        "title": "Wo’s gsammlt werd",
         "content": "Normalerweise wird überhaupt nix Persönliches gspeichert. QR läuft direkt in deinem Browser."
       },
       "tracking": {
-        "title": "Scan-Tracking (wennst’s einschaltest)",
+        "title": "Scan-Tracking (wennst’s as einschaltest)",
         "content": "Wenn aktiv, werdn die Sachen da gmerkt:",
         "items": {
           "clicks": "Wia oft gscant",
@@ -260,12 +260,12 @@
         "ipNote": "IP-Adressen werdn ned im Klartext gspeichert, des is gscheid anonymisiert."
       },
       "selfHosted": {
-        "title": "Läuft auf deinem eigenen Server",
-        "content": "Alles bleibt bei dir, nix geht irgendwohin in da Weltgeschichte."
+        "title": "Laffd oisse auf unsram eigenen Server",
+        "content": "Ois bleibt do, nix geht irgendwohin in da Weltgeschichte umradum."
       },
       "google": {
         "title": "Google Analytics",
-        "content": "Da wird Google Analytics benutzt: https://policies.google.com/privacy"
+        "content": "Nehmen mia gwies ned her! Wennst die dennoch nei lesn mogst: https://policies.google.com/privacy"
       },
       "cloudflare": {
         "title": "Cloudflare Analytics",
@@ -277,15 +277,15 @@
       },
       "cookies": {
         "title": "Cookies",
-        "content": "Nur das nötigste Zeig für Einstellungen und Sprache. Nix unnötigs."
+        "content": "Nur des nötigste Zeigl für Einstellungen und Sprache. Nix unnötigs."
       },
       "rights": {
         "title": "Deine Rechte",
-        "content": "Du kannst jederzeit fragen, ändern oder löschen lassen: {contactEmail}"
+        "content": "Du konnst jederzeit frong, ändern oder löschen lossn: {contactEmail} - Gengra Maß Späze vastäd sie ;)"
       },
       "retention": {
         "title": "Wia lang’s bleibt",
-        "content": "Tracking-Daten bleibn {retentionDays} Tog und werdn dann automatisch wegghaut."
+        "content": "Tracking-Daten bleibn {retentionDays} Dog und werdn dann automatisch wegghaut."
       },
       "changes": {
         "title": "Wenn sich wos ändert",
@@ -308,7 +308,7 @@
   "theme": {
     "light": "Hell",
     "dark": "Dunkl",
-    "system": "So wia’s System mag"
+    "system": "So wia’s System"
   },
   "language": {
     "en": "Englisch",
@@ -316,12 +316,12 @@
     "by": "Boarisch"
   },
   "footer": {
-    "madeWith": "Self-hosted mit a vui Liebe ♥",
+    "madeWith": "Self-hosted mit vui Liebe ♥",
     "source": "Quellcode"
   },
   "cookieConsent": {
     "message": "Die Seitl nutzt Cookies für Statistik-Zeig (Google / Cloudflare). Passt des so?",
-    "accept": "Passt scho",
-    "decline": "Naa, lass mi in Rua"
+    "accept": "Jaja - basst scho",
+    "decline": "Naa, lass mi in Rua zefix!"
   }
 }
