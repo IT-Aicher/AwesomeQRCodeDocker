@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { useConfig } from "@/components/config-provider";
 import { Link } from "@/i18n/navigation";
 
-const REPOSITORY_URL = "https://github.com/IT-Aicher/AwesomeQRCodeDocker",
+const REPOSITORY_URL = "https://github.com/IT-Aicher/AwesomeQRCodeDocker";
 
 export function Footer() {
   const t = useTranslations();
